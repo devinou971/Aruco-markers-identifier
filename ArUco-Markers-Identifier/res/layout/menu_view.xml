@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dictionary_radio_group"
+            android:isScrollContainer="true">
+            <RadioButton android:id="@+id/radio_button_4x4_50" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 4x4 50"/>
+            <RadioButton android:id="@+id/radio_button_4x4_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 4x4 100"/>
+            <RadioButton android:id="@+id/radio_button_4x4_250" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 4x4 250"/>
+            <RadioButton android:id="@+id/radio_button_4x4_1000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 4x4 1000"/>
+            <RadioButton android:id="@+id/radio_button_5x5_50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 5x5 50"/>
+            <RadioButton android:id="@+id/radio_button_5x5_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 5x5 100"/>
+            <RadioButton android:id="@+id/radio_button_5x5_250" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 5x5 250"/>
+            <RadioButton android:id="@+id/radio_button_5x5_1000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 5x5 1000"/>
+            <RadioButton android:id="@+id/radio_button_6x6_50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 6x6 50"/>
+            <RadioButton android:id="@+id/radio_button_6x6_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 6x6 100"/>
+            <RadioButton android:id="@+id/radio_button_6x6_250" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 6x6 250"/>
+            <RadioButton android:id="@+id/radio_button_6x6_1000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 6x6 1000"/>
+            <RadioButton android:id="@+id/radio_button_7x7_50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 7x7 50"/>
+            <RadioButton android:id="@+id/radio_button_7x7_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 7x7 100"/>
+            <RadioButton android:id="@+id/radio_button_7x7_250" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 7x7 250"/>
+            <RadioButton android:id="@+id/radio_button_7x7_1000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco 7x7 1000"/>
+            <RadioButton android:id="@+id/radio_button_original" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArUco Original"/>
+            <RadioButton android:id="@+id/radio_button_april_tag_16h05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="April Tag 16h05"/>
+            <RadioButton android:id="@+id/radio_button_april_tag_25h9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="April Tag 25h9"/>
+            <RadioButton android:id="@+id/radio_button_april_tag_36h10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="April Tag 36h10"/>
+            <RadioButton android:id="@+id/radio_button_april_tag_36h11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="April Tag 36h11"/>
+            <RadioButton android:id="@+id/radio_button_april_tag_36h12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="April Tag 36h12"/>
+
+
+        </RadioGroup>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/load_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Load"
+        />
+
+</LinearLayout>
